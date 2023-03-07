@@ -1,0 +1,141 @@
+.iphones{
+    display: grid;
+    grid-template-columns: repeat(4,lfr);
+    gap: 20;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.iphonesTitle{
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.iphoneContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.iphoneDiv{
+    display: flex;
+    flex-direction: column;
+    width: 16%;
+    height: auto;
+    margin: 10px;
+    flex-wrap: wrap;
+}
+
+.iphoneImg{
+    width: 100%;
+    height: auto;
+}
+
+.iphoneImg-img{
+    width: 100%;
+    height: auto;
+}
+
+.colors{
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+}
+
+.color{
+    width: 12px;
+    height: auto;
+    border-radius: 50%;
+    margin: 3px;
+    color: transparent;
+    font-size: 9px;
+    border: 0.1px solid rgba(128, 128, 128, 0.358);
+    height: 12px;
+}
+
+.black{
+    background-color: black;
+}
+
+.gold{
+    background-color: rgb(232, 235, 163);
+}
+
+.white{
+    background-color: white;
+}
+
+.space{
+    background-color: rgb(74, 40, 74);
+}
+
+.red{
+    background-color: red;
+}
+
+.violet{
+    background-color: rgb(165, 77, 247);
+}
+
+.blue{
+    background-color: rgb(67, 67, 179);
+}
+
+.infoIphone{
+    text-align: center;
+}
+
+.span{
+    font-size: 0.8rem;
+    color: rgb(255, 118, 68);
+}
+
+.spanTransparent{
+    color: transparent;
+}
+
+.iphoneModelName{
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.iphoneDesc{
+    font-size: 1.1rem;
+    margin-top: -15px;
+    font-weight: 300;
+}
+
+.priceIphone{
+    font-size: 0.8rem;
+    margin-top: 29px;
+}
+
+.price{
+    font-weight: 400;
+}
+
+.buy{
+    background-color: rgb(43, 96, 231);
+    color: white;
+    border-radius: 20px;
+    padding: 4px 15px 4px 15px;
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+
+.buy:hover{
+    background-color: rgb(25, 79, 218);
+}
+
+.learnMore{
+    margin-top: 14px;
+    color:rgb(43, 96, 231);
+}
+
+.learnMore:hover{
+    text-decoration: underline;
+}

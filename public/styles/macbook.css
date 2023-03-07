@@ -1,0 +1,14 @@
+.macbooks{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.mac{
+    width: 100%;
+}
+
+.mac-img{
+    width: 100%;
+}
